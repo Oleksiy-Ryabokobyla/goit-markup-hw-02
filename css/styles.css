@@ -70,6 +70,10 @@ body {
   background-color: var(--brand-color);
   cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
 /* benefits section */
 .benefits-section .list {
   list-style: none;
