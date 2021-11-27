@@ -6,7 +6,7 @@
   --address-link-color: rgba(255, 255, 255, 0.6);
   --solid-black-color: #000000;
   --secondary-background-color: #2f303a;
-  --filter-button-background-color: #f5f4fa;
+  --light-background-color: #f5f4fa;
 }
 body {
   font-family: "Roboto", "Arial", sans-serif;
@@ -34,9 +34,11 @@ body {
   color: var(--title-color);
   text-decoration: none;
 }
-
 .nav-item:hover,
 .nav-item:focus {
+  color: var(--brand-color);
+}
+.current {
   color: var(--brand-color);
 }
 .contacts-list {
@@ -66,6 +68,7 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
+  font-family: inherit;
   color: var(--main-white-color);
   background-color: var(--brand-color);
   cursor: pointer;
@@ -100,6 +103,9 @@ body {
   line-height: 1.2;
 }
 /* our team section */
+.our-team-section {
+  background-color: var(--light-background-color);
+}
 .our-team-section .list {
   list-style: none;
 }
@@ -122,6 +128,9 @@ body {
 /* footer */
 .footer {
   background-color: var(--secondary-background-color);
+}
+.footer .logo {
+  color: var(--main-white-color);
 }
 .footer-address-list {
   list-style: none;
@@ -151,8 +160,9 @@ body {
   list-style: none;
 }
 .filter-button {
+  font-family: inherit;
   color: var(--title-color);
-  background-color: var(--filter-button-background-color);
+  background-color: var(--light-background-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
