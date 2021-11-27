@@ -11,6 +11,7 @@
 body {
   font-family: "Roboto", "Arial", sans-serif;
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
 /* =======================  index.html styles =======================  */
 /* header */
@@ -32,6 +33,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   color: var(--title-color);
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .nav-item:hover,
@@ -49,6 +51,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .contacts-item:hover,
@@ -65,12 +68,14 @@ body {
   font-weight: 900;
   line-height: 1.4;
   color: var(--main-white-color);
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-button {
   font-family: inherit;
   color: var(--main-white-color);
   background-color: var(--brand-color);
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 .hero-button:hover,
@@ -166,6 +171,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
+  letter-spacing: inherit;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -185,6 +191,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .project-class {
   font-size: 16px;
